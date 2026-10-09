@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #f7f1e8;
+    color: #3d2b24;
+    line-height: 1.7;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: rgba(45, 28, 20, 0.30);
+    margin: auto;
+    max-width: border-box;
+    font-size: 20pt;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin-top: 25px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.layout {
+    border-radius: 24px;
+    padding: 30px;
+    max-width: border-box;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.layout h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #f7f1e8;
+    margin-bottom: 10px;
+    background-color: #3d2b24;
+    margin: auto;
+    max-width: border-box;
+    font-size: 20pt;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.layout2 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #f7f1e8;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #3d2b24;
+    margin: auto;
+    max-width: border-box;
+    font-size: 20pt;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.layout2 {
+    border-radius: 24px;
+    padding: 30px;
+    max-width: border-box;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.layout2 img {
+    text-align: center;
+    width: 157px;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.content-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content p {
+    margin-bottom: 15px;
+}
+
+.image-content {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.link{
+    font-style: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+}
